@@ -1,0 +1,513 @@
+[UXC1-4] Перемещение в поле "вопрос" аудиофайла выполняется успешно Created: 09/Nov/22  Updated: 09/Nov/22 
+
+Status:	To Do
+Project:	UXCrowd-1
+Component/s:	None 
+Fix Version/s:	None 
+Type: 	Bug 	Priority: 	Medium 
+Reporter: 	Дмитрий Шаповалов 
+Assignee: 	Unassigned 
+Resolution: 	Unresolved 	Votes: 	0 
+Labels: 	Задать_вопрос, Личный_кабинет_клиента 
+Remaining Estimate:	Not Specified 
+Time Spent:	Not Specified 
+Original Estimate:	Not Specified 
+Environment: 	Google Chrome - версия 107.0.5304.87 (Официальная сборка), (arm64). 
+Mac OS 12.0.1 (21A559)
+Attachments: 	 Снимок экрана 2022-11-09 в 16.27.27.png     
+ Description  	 
+Шаг 3-Перенести в поле "Введите Ваш запрос" аудиофайл формат mp3
+Ожидаемый результат - "Ошибка загрузки файла"
+Фактический результат - прикрепление файла выполнено успешно 
+
+
+[UXC1-5] Редактирование реквизитов. Заполнение поля ФИО числовыми данными. Created: 09/Nov/22  Updated: 27/Nov/22 
+
+Status:	To Do
+Project:	UXCrowd-1
+Component/s:	None 
+Fix Version/s:	None 
+Type: 	Bug 	Priority: 	Medium 
+Reporter: 	Дмитрий Шаповалов 
+Assignee: 	Unassigned 
+Resolution: 	Unresolved 	Votes: 	0 
+Labels: 	None 
+Remaining Estimate:	Not Specified 
+Time Spent:	Not Specified 
+Original Estimate:	Not Specified 
+Environment: 	Mac Os 12.0.1 (21A559)
+Google Chrome Версия 107.0.5304.87 (Официальная сборка), (arm64)
+Attachments: 	 Снимок экрана 2022-11-09 в 16.42.58.png      Снимок экрана 2022-11-09 в 16.43.04.png     
+ Description  	 
+Шаги:
+1)  Ввести в поле ФИО числовое значение
+2) Внизу страницы нажать на кнопку "Сохранить"
+Ожидаемый результат: 
+система выделяет поле красным цветом и не сохраняет данные.
+Фактический результат: 
+система выделяет поле зеленым цветом и успешно сохраняет профиль  
+
+
+[UXC1-7] После ввода в колонку ФИО (реквизиты) некорректный данных (символов) происходит сохранение Created: 10/Nov/22  Updated: 12/Nov/22 
+
+Status:	To Do
+Project:	UXCrowd-1
+Component/s:	None 
+Fix Version/s:	None 
+Type: 	Bug 	Priority: 	Medium 
+Reporter: 	Дмитрий Шаповалов 
+Assignee: 	Unassigned 
+Resolution: 	Unresolved 	Votes: 	0 
+Labels: 	None 
+Remaining Estimate:	Not Specified 
+Time Spent:	Not Specified 
+Original Estimate:	Not Specified 
+Environment: 	Google Chrome - версия 107.0.5304.87 (Официальная сборка), (arm64). 
+Mac OS 12.0.1 (21A559)
+Attachments: 	 Снимок экрана 2022-11-10 в 22.11.23.png     
+ Description  	 
+Шаги:
+1) Ввести в поле ФИО символы (например "№@:%!?.)
+2) Внизу страницы нажать на кнопку "Сохранить"
+Ожидаемый результат:
+система выделяет поле красным цветом и  не сохраняет данные.
+Фактический результат:
+система выделяет поле зеленым цветов и сохраняет данные.
+ 
+
+[UXC1-9] После ввода в колонку Наименование банка некорректных данных (символов) происходит сохранение Created: 10/Nov/22  Updated: 10/Nov/22 
+
+Status:	To Do
+Project:	UXCrowd-1
+Component/s:	None 
+Fix Version/s:	None 
+Type: 	Bug 	Priority: 	Medium 
+Reporter: 	Дмитрий Шаповалов 
+Assignee: 	Unassigned 
+Resolution: 	Unresolved 	Votes: 	0 
+Labels: 	Личный_кабинет_тестировщика, реквизиты_тестировщика 
+Remaining Estimate:	Not Specified 
+Time Spent:	Not Specified 
+Original Estimate:	Not Specified 
+Environment: 	Google Chrome - версия 107.0.5304.87 (Официальная сборка), (arm64). 
+Mac OS 12.0.1 (21A559)
+Attachments: 	 Снимок экрана 2022-11-10 в 22.13.59.png     
+ Description  	 
+Шаги
+1) Ввести в поле "Наименование банка" числовое значение
+2) Внизу страницы нажать на кнопку "Сохранить"
+Ожидаемый результат:
+система выделяет поле красным цветом и  не сохраняет данные.
+Фактический результат:
+система выделяет поле зеленым цветов и сохраняет данные.
+
+
+[UXC1-10] После ввода в колонку Наименование банка некорректных данных (символов) происходит сохранение Created: 10/Nov/22  Updated: 10/Nov/22 
+
+Status:	To Do
+Project:	UXCrowd-1
+Component/s:	None 
+Fix Version/s:	None 
+Type: 	Bug 	Priority: 	Medium 
+Reporter: 	Дмитрий Шаповалов 
+Assignee: 	Unassigned 
+Resolution: 	Unresolved 	Votes: 	0 
+Labels: 	Личный_кабинет_тестировщика, реквизиты_тестировщика 
+Remaining Estimate:	Not Specified 
+Time Spent:	Not Specified 
+Original Estimate:	Not Specified 
+Environment: 	Google Chrome - версия 107.0.5304.87 (Официальная сборка), (arm64). 
+Mac OS 12.0.1 (21A559)
+Attachments: 	 Снимок экрана 2022-11-10 в 22.16.49.png     
+ Description  	 
+Шаги:
+1) Ввести в поле "Наименование банка" символы (например "№@:%!?.)
+2) Внизу страницы нажать на кнопку "Сохранить"
+Ожидаемый результат:
+система выделяет поле красным цветом и  не сохраняет данные.
+Фактический результат:
+система выделяет поле зеленым цветов и сохраняет данные.
+
+
+[UXC1-11] После заполнения поля "Когда выдан паспорт" несуществующей датой успешно происходит сохранение профиля Created: 10/Nov/22  Updated: 10/Nov/22 
+
+Status:	To Do
+Project:	UXCrowd-1
+Component/s:	None 
+Fix Version/s:	None 
+Type: 	Bug 	Priority: 	Medium 
+Reporter: 	Дмитрий Шаповалов 
+Assignee: 	Unassigned 
+Resolution: 	Unresolved 	Votes: 	0 
+Labels: 	Личный_кабинет_тестировщика, реквизиты_тестировщика 
+Remaining Estimate:	Not Specified 
+Time Spent:	Not Specified 
+Original Estimate:	Not Specified 
+Environment: 	Google Chrome - версия 107.0.5304.87 (Официальная сборка), (arm64). 
+Mac OS 12.0.1 (21A559)
+Attachments: 	 Снимок экрана 2022-11-10 в 22.28.58.png     
+ Description  	 
+Шаги:
+1) Ввести в поле "Когда выдан паспорт" несуществующую дату (например 75.45.4567)
+2) Внизу страницы нажать на кнопку "Сохранить"
+Ожидаемый результат:
+система выделяет поле красным цветом и  не сохраняет данные.
+Фактический результат:
+система выделяет поле зеленым цветов и сохраняет данные.
+
+
+[UXC1-12] После заполнения поля "Кем выдан паспорт" числовыми данными успешно происходит сохранение профиля Created: 10/Nov/22  Updated: 10/Nov/22 
+
+Status:	To Do
+Project:	UXCrowd-1
+Component/s:	None 
+Fix Version/s:	None 
+Type: 	Bug 	Priority: 	Medium 
+Reporter: 	Дмитрий Шаповалов 
+Assignee: 	Unassigned 
+Resolution: 	Unresolved 	Votes: 	0 
+Labels: 	Личный_кабинет_тестировщика, реквизиты_тестировщика 
+Remaining Estimate:	Not Specified 
+Time Spent:	Not Specified 
+Original Estimate:	Not Specified 
+Environment: 	Google Chrome - версия 107.0.5304.87 (Официальная сборка), (arm64). 
+Mac OS 12.0.1 (21A559)
+Attachments: 	 Снимок экрана 2022-11-10 в 22.33.08.png     
+ Description  	 
+Шаги: 
+1) Ввести в поле "Кем выдан паспорт" числовое значение
+2) Внизу страницы нажать на кнопку "Сохранить"
+Ожидаемый результат:
+система выделяет поле красным цветом и  не сохраняет данные.
+Фактический результат:
+система выделяет поле зеленым цветов и сохраняет данные.
+
+
+[UXC1-13] После заполнения поля "Кем выдан паспорт" символами успешно происходит сохранение профиля Created: 10/Nov/22  Updated: 10/Nov/22 
+
+Status:	To Do
+Project:	UXCrowd-1
+Component/s:	None 
+Fix Version/s:	None 
+Type: 	Bug 	Priority: 	Medium 
+Reporter: 	Дмитрий Шаповалов 
+Assignee: 	Unassigned 
+Resolution: 	Unresolved 	Votes: 	0 
+Labels: 	Личный_кабинет_тестировщика, реквизиты_тестировщика 
+Remaining Estimate:	Not Specified 
+Time Spent:	Not Specified 
+Original Estimate:	Not Specified 
+Environment: 	Google Chrome - версия 107.0.5304.87 (Официальная сборка), (arm64). 
+Mac OS 12.0.1 (21A559)
+ Description  	 
+Шаги: 
+1) Ввести в поле "Кем выдан паспорт" символами
+2) Внизу страницы нажать на кнопку "Сохранить"
+Ожидаемый результат:
+система выделяет поле красным цветом и  не сохраняет данные.
+Фактический результат:
+система выделяет поле зеленым цветов и сохраняет данные.
+
+
+[UXC1-14] После заполнения поля "Адрес регистрации" числовыми значениями успешно происходит сохранение профиля Created: 10/Nov/22  Updated: 10/Nov/22 
+
+Status:	To Do
+Project:	UXCrowd-1
+Component/s:	None 
+Fix Version/s:	None 
+Type: 	Bug 	Priority: 	Medium 
+Reporter: 	Дмитрий Шаповалов 
+Assignee: 	Unassigned 
+Resolution: 	Unresolved 	Votes: 	0 
+Labels: 	Личный_кабинет_тестировщика, реквизиты_тестировщика 
+Remaining Estimate:	Not Specified 
+Time Spent:	Not Specified 
+Original Estimate:	Not Specified 
+Environment: 	Google Chrome - версия 107.0.5304.87 (Официальная сборка), (arm64). 
+Mac OS 12.0.1 (21A559)
+Attachments: 	 Снимок экрана 2022-11-10 в 22.44.19.png     
+ Description  	 
+Шаги: 
+1) Ввести в поле "Адрес регистрации" числовое значение
+2) Внизу страницы нажать на кнопку "Сохранить"
+Ожидаемый результат:
+система выделяет поле красным цветом и  не сохраняет данные.
+Фактический результат:
+система выделяет поле зеленым цветов и сохраняет данные.
+
+
+[UXC1-16] После заполнения поля "Адрес регистрации" символами успешно происходит сохранение профиля Created: 10/Nov/22  Updated: 10/Nov/22 
+
+Status:	To Do
+Project:	UXCrowd-1
+Component/s:	None 
+Fix Version/s:	None 
+Type: 	Bug 	Priority: 	Medium 
+Reporter: 	Дмитрий Шаповалов 
+Assignee: 	Unassigned 
+Resolution: 	Unresolved 	Votes: 	0 
+Labels: 	Личный_кабинет_тестировщика, реквизиты_тестировщика 
+Remaining Estimate:	Not Specified 
+Time Spent:	Not Specified 
+Original Estimate:	Not Specified 
+Environment: 	Google Chrome - версия 107.0.5304.87 (Официальная сборка), (arm64). 
+Mac OS 12.0.1 (21A559)
+Attachments: 	 Снимок экрана 2022-11-10 в 22.47.41.png     
+ Description  	 
+Шаги: 
+1) Ввести в поле "Адрес регистрации" символами
+2) Внизу страницы нажать на кнопку "Сохранить"
+Ожидаемый результат:
+система выделяет поле красным цветом и  не сохраняет данные.
+Фактический результат:
+система выделяет поле зеленым цветов и сохраняет данные.
+
+
+[UXC1-17] После заполнения поля "Фактический адрес" числовыми значениями успешно происходит сохранение профиля Created: 10/Nov/22  Updated: 10/Nov/22 
+
+Status:	To Do
+Project:	UXCrowd-1
+Component/s:	None 
+Fix Version/s:	None 
+Type: 	Bug 	Priority: 	Medium 
+Reporter: 	Дмитрий Шаповалов 
+Assignee: 	Unassigned 
+Resolution: 	Unresolved 	Votes: 	0 
+Labels: 	Личный_кабинет_тестировщика, реквизиты_тестировщика 
+Remaining Estimate:	Not Specified 
+Time Spent:	Not Specified 
+Original Estimate:	Not Specified 
+Environment: 	Google Chrome - версия 107.0.5304.87 (Официальная сборка), (arm64). 
+Mac OS 12.0.1 (21A559)
+Attachments: 	 Снимок экрана 2022-11-10 в 22.50.22-1.png      Снимок экрана 2022-11-10 в 22.50.22.png     
+ Description  	 
+Шаги: 
+1) Ввести в поле "Фактический адрес" числовое значение
+2) Внизу страницы нажать на кнопку "Сохранить"
+Ожидаемый результат:
+система выделяет поле красным цветом и  не сохраняет данные.
+Фактический результат:
+система выделяет поле зеленым цветов и сохраняет данные.
+
+
+[UXC1-18] После заполнения поля "Фактический адрес" символами успешно происходит сохранение профиля Created: 10/Nov/22  Updated: 10/Nov/22 
+
+Status:	To Do
+Project:	UXCrowd-1
+Component/s:	None 
+Fix Version/s:	None 
+Type: 	Bug 	Priority: 	Medium 
+Reporter: 	Дмитрий Шаповалов 
+Assignee: 	Unassigned 
+Resolution: 	Unresolved 	Votes: 	0 
+Labels: 	None 
+Remaining Estimate:	Not Specified 
+Time Spent:	Not Specified 
+Original Estimate:	Not Specified 
+Environment: 	Google Chrome - версия 107.0.5304.87 (Официальная сборка), (arm64). 
+Mac OS 12.0.1 (21A559)
+Attachments: 	 Снимок экрана 2022-11-10 в 22.56.21-1.png     
+ Description  	 
+Шаги: 
+1) Ввести в поле "Фактический адрес" символами
+2) Внизу страницы нажать на кнопку "Сохранить"
+Ожидаемый результат:
+система выделяет поле красным цветом и  не сохраняет данные.
+Фактический результат:
+система выделяет поле зеленым цветов и сохраняет данные.
+
+
+[UXC1-19] После заполнения поля "Номер телефона" номером с недопустимым кодом оператора успешно происходит сохранение профиля Created: 10/Nov/22  Updated: 27/Nov/22 
+
+Status:	To Do
+Project:	UXCrowd-1
+Component/s:	None 
+Fix Version/s:	None 
+Type: 	Bug 	Priority: 	Medium 
+Reporter: 	Дмитрий Шаповалов 
+Assignee: 	Unassigned 
+Resolution: 	Unresolved 	Votes: 	0 
+Labels: 	Личный_кабинет_тестировщика, реквизиты_тестировщика 
+Remaining Estimate:	Not Specified 
+Time Spent:	Not Specified 
+Original Estimate:	Not Specified 
+Environment: 	Google Chrome - версия 107.0.5304.87 (Официальная сборка), (arm64). 
+Mac OS 12.0.1 (21A559)
+Attachments: 	 Снимок экрана 2022-11-10 в 22.59.26.png     
+ Description  	 
+Шаги: 
+1) Ввести в поле "Номер телефона" номером с недопустимым кодом оператора
+2) Внизу страницы нажать на кнопку "Сохранить"
+Ожидаемый результат:
+система выделяет поле красным цветом и  не сохраняет данные.
+Фактический результат:
+система выделяет поле зеленым цветов и сохраняет данные. 
+
+
+[UXC1-105] ЛКК. Реквизиты для выставления счета юридического лица. После ввода в колонку ФИО числовых данных происходит сохранение Created: 17/Nov/22  Updated: 17/Nov/22 
+
+Status:	To Do
+Project:	UXCrowd-1
+Component/s:	None 
+Fix Version/s:	None 
+Type: 	Bug 	Priority: 	Medium 
+Reporter: 	Дмитрий Шаповалов 
+Assignee: 	Unassigned 
+Resolution: 	Unresolved 	Votes: 	0 
+Labels: 	Личный_кабинет_клиента, Реквезиты_для_выставления_счета, Юридическое_лицо 
+Remaining Estimate:	Not Specified 
+Time Spent:	Not Specified 
+Original Estimate:	Not Specified 
+Environment: 	Mac OS 12.0.1 (21A559)
+Safari Версия 15.1 (17612.2.9.1.20)
+Attachments: 	 Снимок экрана 2022-11-17 в 20.29.27.png     
+ Description  	 
+Шаги:
+1) Ввести в поле ФИО символы (например 123)
+2) Внизу страницы нажать на кнопку "Сохранить"
+Ожидаемый результат:
+система выделяет поле красным цветом и  не сохраняет данные.
+Фактический результат:
+система выделяет поле зеленым цветов и сохраняет данные.
+
+
+[UXC1-106] ЛКК. Реквизиты для выставления счета юридического лица. После ввода в колонку Юридический адрес числовых данных происходит сохранение Created: 17/Nov/22  Updated: 17/Nov/22 
+
+Status:	To Do
+Project:	UXCrowd-1
+Component/s:	None 
+Fix Version/s:	None 
+Type: 	Bug 	Priority: 	Medium 
+Reporter: 	Дмитрий Шаповалов 
+Assignee: 	Unassigned 
+Resolution: 	Unresolved 	Votes: 	0 
+Labels: 	Личный_кабинет_клиента, Реквезиты_для_выставления_счета, Юридическое_лицо 
+Remaining Estimate:	Not Specified 
+Time Spent:	Not Specified 
+Original Estimate:	Not Specified 
+Environment: 	Mac OS 12.0.1 (21A559)
+Safari Версия 15.1 (17612.2.9.1.20)
+Attachments: 	 Снимок экрана 2022-11-17 в 20.30.09.png     
+ Description  	 
+Шаги:
+1) Ввести в поле Юридический адрес символы (например 123)
+2) Внизу страницы нажать на кнопку "Сохранить"
+Ожидаемый результат:
+система выделяет поле красным цветом и  не сохраняет данные.
+Фактический результат:
+система выделяет поле зеленым цветов и сохраняет данные.
+
+
+[UXC1-107] ЛКК. Тест First click. После заполнения всех полей корректными данными не выполняется переход к выбору аудитории Created: 17/Nov/22  Updated: 17/Nov/22 
+
+Status:	To Do
+Project:	UXCrowd-1
+Component/s:	None 
+Fix Version/s:	None 
+Type: 	Bug 	Priority: 	High 
+Reporter: 	Дмитрий Шаповалов 
+Assignee: 	Unassigned 
+Resolution: 	Unresolved 	Votes: 	0 
+Labels: 	Личный_кабинет_клиента, тест_first_click 
+Remaining Estimate:	Not Specified 
+Time Spent:	Not Specified 
+Original Estimate:	Not Specified 
+Environment: 	Mac OS 12.0.1 (21A559)
+Safari Версия 15.1 (17612.2.9.1.20)
+Attachments: 	 Снимок экрана 2022-11-17 в 20.46.56.png     
+ Description  	 
+Шаги:
+1. Навести курсор мыши на иконку "+" для перехода в подсекцию "создание нового исследования" и нажать левую кнопку мыши
+2. Навести курсор мыши на поле "тест first click" и нажать левую кнопку мыши
+3. Заполнить обязательные поля корректными данными
+4. Перетащить изображение/скриншот в поле "тестируемый макет"
+5. Навести курсор мыши на иконку "к выбору аудитории" и нажать левую кнопку мыши
+Ожидаемый результат:
+После выполнения 5 шага успешно выполнен переход к выбору аудитории 
+Фактический результат:
+После выполнения 5 шага переход к выбору аудитории не происходит. В Devtools появляется "failed".
+
+
+[UXC1-108] Сайт. После перехода в подраздел "Транскрибация и разметка интервью" в Devtool появляется FAILED Created: 17/Nov/22  Updated: 17/Nov/22 
+
+Status:	To Do
+Project:	UXCrowd-1
+Component/s:	None 
+Fix Version/s:	None 
+Type: 	Bug 	Priority: 	Medium 
+Reporter: 	Дмитрий Шаповалов 
+Assignee: 	Unassigned 
+Resolution: 	Unresolved 	Votes: 	0 
+Labels: 	Сайт, Транскрибация_и_разметка_интервью 
+Remaining Estimate:	Not Specified 
+Time Spent:	Not Specified 
+Original Estimate:	Not Specified 
+Environment: 	Mac OS 12.0.1 (21A559)
+Safari Версия 15.1 (17612.2.9.1.20)
+Attachments: 	 Снимок экрана 2022-11-17 в 20.59.36.png     
+ Description  	 
+Шаги:
+1) Перейти на сайте в раздел "Транскрибация и разметка интервью"
+Ожидаемый результат:
+Переход выполнен успешно, ошибки отсутствуют 
+Фактический результат:
+Переход выполнен успешно, есть ошибка "failed" в devtools
+
+
+[UXC1-109] Сайт. В подсекции "Транскрибация и разметка интервью" не выполняется скачивание примера транскрипта, появляется ошибка в devtools Created: 17/Nov/22  Updated: 20/Nov/22 
+
+Status:	To Do
+Project:	UXCrowd-1
+Component/s:	None 
+Fix Version/s:	None 
+Type: 	Bug 	Priority: 	Medium 
+Reporter: 	Дмитрий Шаповалов 
+Assignee: 	Unassigned 
+Resolution: 	Unresolved 	Votes: 	0 
+Labels: 	Сайт, Транскрибация_и_разметка_интервью 
+Remaining Estimate:	Not Specified 
+Time Spent:	Not Specified 
+Original Estimate:	Not Specified 
+Environment: 	Mac OS 12.0.1 (21A559)
+Safari Версия 15.1 (17612.2.9.1.20)
+Attachments: 	 Снимок экрана 2022-11-17 в 21.04.56.png     
+ Description  	 
+Шаги:
+1) Перейти на сайте в раздел "Транскрибация и разметка интервью"
+2) Навести курсор мыши на кнопку "скачать пример транскрипта" и нажать левую кнопку мыши 
+Ожидаемый результат:
+1)Переход выполнен успешно 
+2) Скачивание выполнено успешно 
+Фактический результат:
+1) Переход выполнен успешно
+2) Скачивание примера не выполняется, в панели Devtools появляется ошибка 
+
+
+[UXC1-110] Сайт. В подсекции "Как получить два раздельных файла?" секции"Транскрибация и разметка интервью" не функционирует кнопка "Понятно, спасибо "" Created: 17/Nov/22  Updated: 27/Nov/22 
+
+Status:	To Do
+Project:	UXCrowd-1
+Component/s:	None 
+Fix Version/s:	None 
+Type: 	Bug 	Priority: 	Medium 
+Reporter: 	Дмитрий Шаповалов 
+Assignee: 	Unassigned 
+Resolution: 	Unresolved 	Votes: 	0 
+Labels: 	None 
+Remaining Estimate:	Not Specified 
+Time Spent:	Not Specified 
+Original Estimate:	Not Specified 
+Environment: 	Mac OS 12.0.1 (21A559)
+Safari Версия 15.1 (17612.2.9.1.20)
+Attachments: 	 Снимок экрана 2022-11-17 в 21.10.08.png     
+ Description  	 
+Шаги:
+1) Перейти на сайте в раздел "Транскрибация и разметка интервью"
+2) Навести курсор мыши на кнопку "Как получить два раздельных файла?" и нажать левую кнопку мыши 
+3) Пролистать вниз инструкции и нажать кнопку "Понятно, спасибо"  
+Ожидаемый результат:
+Нажатие кнопки выполнено успешно, подсекция закрылась
+Фактический результат:
+Нажатие кнопки не выполняется 
+ 
+ 
