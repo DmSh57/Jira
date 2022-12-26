@@ -509,5 +509,98 @@ Attachments: 	 Снимок экрана 2022-11-17 в 21.10.08.png
 Нажатие кнопки выполнено успешно, подсекция закрылась
 Фактический результат:
 Нажатие кнопки не выполняется 
+
+
+
+БАГ-РЕПОРТ API (Postman)
+
+ID-1
+
+[UXC1-119] Возможность создать промокод с истекшей датой
+Status:	To Do
+Project:	UXCrowd-1
+Component/s:	None 
+Fix Version/s:	None 
+Type: 	Bug 	Priority: 	Medium 
+Reporter: 	Дмитрий Шаповалов 
+Assignee: 	Unassigned 
+Resolution: 	Unresolved 	Votes: 	0 
+Labels: 	None 
+Remaining Estimate:	Not Specified 
+Time Spent:	Not Specified 
+Original Estimate:	Not Specified 
+Environment: 	Mac OS 12.0.1 (21A559)
+Safari Версия 15.1 (17612.2.9.1.20)
+Attachments: скриншот
+Окружение
+https://dev-t.uxcrowd.ru/app-moderator-home
+Description 
+Шаги
+Отправить post запрос, в параметрах «дата» указать 1997
+Ожидаемый результат
+Возвращается ошибка 400 
+Фактический результат
+Создается промокод
+
+
+ID-2
+
+[UXC1-120] Возможность создать промокод с процентом скидки более 100
+Status:	To Do
+Project:	UXCrowd-1
+Component/s:	None 
+Fix Version/s:	None 
+Type: 	Bug 	Priority: 	Medium 
+Reporter: 	Дмитрий Шаповалов 
+Assignee: 	Unassigned 
+Resolution: 	Unresolved 	Votes: 	0 
+Labels: 	None 
+Remaining Estimate:	Not Specified 
+Time Spent:	Not Specified 
+Original Estimate:	Not Specified 
+Environment: 	Mac OS 12.0.1 (21A559)
+Safari Версия 15.1 (17612.2.9.1.20)
+Attachments: скриншот
+Окружение
+https://dev-t.uxcrowd.ru/app-moderator-home
+Description 
+Шаги
+Отправить post запрос
+В параметрах «процент» указать 120
+Ожидаемый результат
+Возвращается ошибка 400 
+Фактический результат
+Создается промокод
+
+ID-3
+
+
+[UXC1-121] Возможность создать промокод с невалидным имейлом
+Status:	To Do
+Project:	UXCrowd-1
+Component/s:	None 
+Fix Version/s:	None 
+Type: 	Bug 	Priority: 	Medium 
+Reporter: 	Дмитрий Шаповалов 
+Assignee: 	Unassigned 
+Resolution: 	Unresolved 	Votes: 	0 
+Labels: 	None 
+Remaining Estimate:	Not Specified 
+Time Spent:	Not Specified 
+Original Estimate:	Not Specified 
+Environment: 	Mac OS 12.0.1 (21A559)
+Safari Версия 15.1 (17612.2.9.1.20)
+Attachments: скриншот
+Окружение
+https://dev-t.uxcrowd.ru/app-moderator-home
+Шаги для воспроизведения
+Отправить post запрос
+В параметрах «имейл» указать 123
+Ожидаемый результат
+Возвращается ошибка 400 
+Фактический результат
+Создается промокод
+
+
  
  
